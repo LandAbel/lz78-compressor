@@ -1,0 +1,29 @@
+A feladat megvalósításához felhasznált Pseudo-kód:
+
+# Coding
+begin
+    initialize a dictionary by empty phrase P
+    while (not EOF) do
+        begin
+            readSymbol
+            if (F.X> is in the dictionary) then
+                F= F.X
+            else
+                begin
+                    output(pointer(F), X)
+                    encode X to the dictionary
+                    initialize phrase F by empty character
+                end 
+        end
+end
+
+# Decoding
+begin
+    init dictionary by an empty phrase
+    while (not EOF) do
+        begin
+            read pair of index and character (i,X) from input
+            put new phrase phrase(i).X into distionary
+            generate phrase to the output
+        end
+end
